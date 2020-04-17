@@ -170,7 +170,7 @@ U 1 1 5E7BA9C6
 P 3450 3700
 F 0 "Q1" H 3650 3775 50  0000 L CNN
 F 1 "2SA1016K" H 3650 3700 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 3650 3625 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 3650 3625 50  0001 L CIN
 F 3 "" H 3450 3700 50  0001 L CNN
 	1    3450 3700
 	1    0    0    1   
@@ -181,7 +181,7 @@ U 1 1 5E7BAA41
 P 4250 3700
 F 0 "Q3" H 4450 3775 50  0000 L CNN
 F 1 "2SA1016K" H 4450 3850 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 4450 3625 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 4450 3625 50  0001 L CIN
 F 3 "" H 4250 3700 50  0001 L CNN
 	1    4250 3700
 	-1   0    0    1   
@@ -214,7 +214,7 @@ U 1 1 5E7BAC19
 P 3950 3000
 F 0 "Q2" H 4150 3075 50  0000 L CNN
 F 1 "2SA1016K" H 4150 3150 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 4150 2925 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 4150 2925 50  0001 L CIN
 F 3 "" H 3950 3000 50  0001 L CNN
 	1    3950 3000
 	-1   0    0    1   
@@ -313,7 +313,7 @@ U 1 1 5E7BBC44
 P 5200 2700
 F 0 "Q5" H 5400 2775 50  0000 L CNN
 F 1 "2SA1016K" H 5400 2850 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5400 2625 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 5400 2625 50  0001 L CIN
 F 3 "" H 5200 2700 50  0001 L CNN
 	1    5200 2700
 	-1   0    0    1   
@@ -379,7 +379,7 @@ U 1 1 5E7BC382
 P 4700 4550
 F 0 "Q4" H 4900 4625 50  0000 L CNN
 F 1 "2SC1941" H 4900 4550 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 4900 4475 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 4900 4475 50  0001 L CIN
 F 3 "" H 4700 4550 50  0001 L CNN
 	1    4700 4550
 	1    0    0    -1  
@@ -569,7 +569,7 @@ F 1 "0R22" V 7450 4000 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P7.62mm_Vertical" V 7380 4000 50  0001 C CNN
 F 3 "" H 7450 4000 50  0001 C CNN
 	1    7450 4000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Fuse F1
@@ -662,13 +662,13 @@ $EndComp
 $Comp
 L Screw_Terminal_01x02 J1
 U 1 1 5E7C841E
-P 1150 3800
-F 0 "J1" H 1150 3900 50  0000 C CNN
-F 1 "In" H 1150 3600 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS1.5-2pol" H 1150 3800 50  0001 C CNN
-F 3 "" H 1150 3800 50  0001 C CNN
-	1    1150 3800
-	-1   0    0    1   
+P 1150 3700
+F 0 "J1" H 1150 3800 50  0000 C CNN
+F 1 "In" H 1150 3500 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS1.5-2pol" H 1150 3700 50  0001 C CNN
+F 3 "" H 1150 3700 50  0001 C CNN
+	1    1150 3700
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR08
@@ -684,13 +684,13 @@ $EndComp
 $Comp
 L Screw_Terminal_01x02 J2
 U 1 1 5E7C92CD
-P 9200 3700
-F 0 "J2" H 9200 3800 50  0000 C CNN
-F 1 "Out" H 9200 3500 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS1.5-2pol" H 9200 3700 50  0001 C CNN
-F 3 "" H 9200 3700 50  0001 C CNN
-	1    9200 3700
-	1    0    0    1   
+P 9200 3600
+F 0 "J2" H 9200 3700 50  0000 C CNN
+F 1 "Out" H 9200 3400 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS1.5-2pol" H 9200 3600 50  0001 C CNN
+F 3 "" H 9200 3600 50  0001 C CNN
+	1    9200 3600
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR09
